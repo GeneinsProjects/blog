@@ -76,5 +76,25 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
+    <script type="text/javascript">
+        
+        function notiff(title, message, type){
+            $.notify({ 
+                title: title,
+                message: message,
+            },{
+                // settings
+                type: type,
+                allow_dismiss: true,
+                newest_on_top: true,
+                mouse_over: 'pause',
+                animate: {
+                    enter: 'animated fadeInDown',
+                    exit: 'animated fadeOutUp'
+                },
+            });
+        }
+    </script>
+        @yield('scripts')
 </body>
 </html>
