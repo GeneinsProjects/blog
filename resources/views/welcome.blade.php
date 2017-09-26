@@ -13,6 +13,7 @@
         <!-- Styles -->
         <style>
             html, body {
+                background-image: url("{{asset('whitebrick.jpg')}}");
                 background-color: #fff;
                 color: #636b6f;
                 font-family: 'Raleway', sans-serif;
@@ -79,10 +80,10 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Genein NEINJAH Merced
+                    Genein NETTECH Fred
                     <div class="row" style="text-align:center;">
 
-                    <img src="{{asset('pic.png')}}" style="width: 100px;">
+                    <img src="{{asset('cloud.jpg')}}" style="width: 300px;">
                     </div>
 
 
