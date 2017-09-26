@@ -79,8 +79,15 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Genein
+                    Genein NEINJAH Merced
+                    <div class="row" style="text-align:center;">
+
+                    <img src="{{asset('pic.png')}}" style="width: 100px;">
+                    </div>
+
+
                 </div>
+
 
                 <div class="links">
                     <a href="{{url('/users')}}">Users</a>
