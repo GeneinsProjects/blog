@@ -92,10 +92,10 @@
 
                 <div class="links">
                     <a href="{{url('/users')}}">Users</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
+                    <a href="{{ url('/register') }}">RegisterNow!</a>
+                    <a href="https://cloud.google.com/appengine/">GoogleAppEngine</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="{{url('/about')}}">Aboutus</a>
                 </div>
             </div>
         </div>

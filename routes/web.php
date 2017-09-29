@@ -17,11 +17,19 @@ Route::get('/', function () {
 
 Auth::routes();
 
+/**Ani e butang for dili na neeed login pages**/
+
+Route::get('about', function(){
+	return view('about');
+});
+
+
+/**Ani e butang ang need ug login pages**/
 Route::group(['middleware' => ['auth']], function () {
 
 	Route::get('/home', 'HomeController@index')->name('home');
 	Route::resource('users', 'UsersController');
 	Route::get('all-users', 'UsersController@all');
 
-	
+
 });

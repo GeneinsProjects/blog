@@ -12,6 +12,17 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <style>
+            html, body {
+                background-image: url("{{asset('whitebrick.jpg')}}");
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+</style>
 </head>
 <body>
     <div id="app">
