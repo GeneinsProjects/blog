@@ -95,7 +95,7 @@
                     <a href="{{ url('/register') }}">RegisterNow!</a>
                     <a href="https://cloud.google.com/appengine/">GoogleAppEngine</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
-                    <a href="{{url('/about')}}">Aboutus</a>
+                    <a href="{{url('/about')}}">About</a>
                 </div>
             </div>
         </div>
